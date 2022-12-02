@@ -1,7 +1,8 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 const Login = () => {
+    const navigate = useNavigate();
 
     const handleLogin = event => {
         event.preventDefault();
@@ -20,7 +21,8 @@ const Login = () => {
         })
             .then(res => res.json())
             .then(data => {
-                localStorage.setItem('ultimateAccessToken', data.access_token)
+                localStorage.setItem('ultimateAccessToken', data.access_token);
+                navigate('/attendance');
             })
     }
 
