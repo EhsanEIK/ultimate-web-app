@@ -1,5 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import Main from "../../layouts/Main/Main";
+import Attendance from "../../Pages/Attendance/Attendance/Attendance";
 import Login from "../../Pages/Login/Login/Login";
 import SignUpForm1 from '../../Pages/SignupForm/SignupForm1/SignupForm1';
 import SignupForm2 from "../../Pages/SignupForm/SignupForm2/SignupForm2";
@@ -15,6 +16,7 @@ const router = createBrowserRouter([
             { path: '/signUpForm3', element: <SignupForm3></SignupForm3> },
             { path: '/login', element: <Login></Login> },
         ]
-    }
+    },
+    { path: '/attendance', element: <Attendance></Attendance> }
 ])
 export default router;
