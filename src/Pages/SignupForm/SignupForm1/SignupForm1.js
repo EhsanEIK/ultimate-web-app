@@ -14,7 +14,7 @@ const SignUpForm1 = () => {
                     </div>
                     <div className='flex justify-center mt-20'>
                         <Link to='/signUpForm2'>
-                            <button className='btn bg-blue-700 border-blue-700 rounded-2xl shadow-2xl hover:bg-white hover:text-blue-700 hover:border-blue-700'>
+                            <button className='btn capitalize bg-blue-500 border-blue-500 text-white rounded-2xl shadow-2xl hover:bg-white hover:text-blue-700 hover:border-blue-700 px-5 py-3'>
                                 <span className='mr-3'>Next Step</span>
                                 <FaArrowRight></FaArrowRight>
                             </button>

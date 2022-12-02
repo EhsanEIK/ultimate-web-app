@@ -17,12 +17,14 @@ const SignupForm2 = () => {
                     </div>
                     <div className='flex justify-center items-center mt-20'>
                         <Link to='/'>
-                            <button className='font-semibold mr-28'>Back</button>
+                            <button className='font-semibold md:mr-28 mr-10'>Back</button>
                         </Link>
-                        <button className='btn bg-blue-700 border-blue-700 rounded-2xl shadow-2xl hover:bg-white hover:text-blue-700 hover:border-blue-700'>
-                            <span className='mr-3'>Next Step</span>
-                            <FaArrowRight></FaArrowRight>
-                        </button>
+                        <Link to='/signUpForm3'>
+                            <button className='btn capitalize bg-blue-500 border-blue-500 text-white rounded-2xl shadow-2xl hover:bg-white hover:text-blue-700 hover:border-blue-700 md:px-5 md:py-3'>
+                                <span className='mr-3'>Next Step</span>
+                                <FaArrowRight></FaArrowRight>
+                            </button>
+                        </Link>
                     </div>
                 </form>
             </div>
