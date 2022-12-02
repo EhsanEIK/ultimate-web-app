@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaArrowRight } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 const SignUpForm1 = () => {
     return (
@@ -11,11 +12,13 @@ const SignUpForm1 = () => {
                         <input type="text" placeholder="Write First Name" className="w-full border-b-2 outline-0 pl-5 pb-1" />
                         <input type="text" placeholder="Write Last Name" className="block w-full border-b-2 outline-0 pl-5 pb-1 mt-10" />
                     </div>
-                    <div className='flex justify-center mt-16'>
-                        <button className='btn bg-blue-700 border-blue-700 rounded-2xl shadow-2xl hover:bg-blue-600 hover:border-blue-700'>
-                            <span className='mr-3'>Next Step</span>
-                            <FaArrowRight></FaArrowRight>
-                        </button>
+                    <div className='flex justify-center mt-20'>
+                        <Link to='/signUpForm2'>
+                            <button className='btn bg-blue-700 border-blue-700 rounded-2xl shadow-2xl hover:bg-white hover:text-blue-700 hover:border-blue-700'>
+                                <span className='mr-3'>Next Step</span>
+                                <FaArrowRight></FaArrowRight>
+                            </button>
+                        </Link>
                     </div>
                 </form>
                 <div className='flex md:flex-row flex-col items-center justify-center mt-28'>
