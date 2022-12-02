@@ -1,5 +1,4 @@
 import React from 'react';
-import { FaArrowRight } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 const SignupForm3 = () => {
@@ -16,8 +15,8 @@ const SignupForm3 = () => {
                         <Link to='/signUpForm2'>
                             <button className='font-semibold md:mr-28 mr-10'>Back</button>
                         </Link>
-                        <button className='btn capitalize bg-blue-500 border-blue-500 text-white rounded-2xl shadow-2xl hover:bg-white hover:text-blue-700 hover:border-blue-700 px-5 py-3'>
-                            <span>Sign Up</span>
+                        <button className='btn capitalize bg-blue-500 border-blue-500 text-white rounded-2xl shadow-2xl hover:bg-white hover:text-blue-700 hover:border-blue-700 px-7 py-3'>
+                            Sign Up
                         </button>
                     </div>
                 </form>

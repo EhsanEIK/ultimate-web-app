@@ -23,9 +23,11 @@ const SignUpForm1 = () => {
                 </form>
                 <div className='flex md:flex-row flex-col items-center justify-center mt-28'>
                     <p>Already have an account?</p>
-                    <button className='underline uppercase hover:cursor-pointer md:ml-2' style={{ color: "#1678CB", fontWeight: "700" }}>
-                        Login Here!
-                    </button>
+                    <Link to='/login'>
+                        <button className='underline uppercase hover:cursor-pointer md:ml-2' style={{ color: "#1678CB", fontWeight: "700" }}>
+                            Login Here!
+                        </button>
+                    </Link>
                 </div>
             </div>
         </div >
