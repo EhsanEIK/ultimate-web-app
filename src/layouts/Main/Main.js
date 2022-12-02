@@ -1,4 +1,5 @@
 import React from 'react';
+import { Outlet } from 'react-router-dom';
 import signUpBgImage from '../../assets/SignUpBGImage/SignUpBGImage.png';
 
 const Main = () => {
@@ -8,7 +9,7 @@ const Main = () => {
                 <div className="hero-content flex-col lg:flex-row gap-20">
                     <img src={signUpBgImage} alt="" className="rounded-lg" />
                     <div>
-                        <h1>Signup Form</h1>
+                        <Outlet></Outlet>
                     </div>
                 </div>
             </div>
