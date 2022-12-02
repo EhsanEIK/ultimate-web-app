@@ -4,7 +4,7 @@ import { FaArrowRight } from "react-icons/fa";
 const SignUpForm1 = () => {
     return (
         <div>
-            <div className='shadow-xl shadow-slate-400 p-20'>
+            <div className='md:h-[630px] h-full shadow-xl shadow-slate-400 p-20 mt-2'>
                 <h1 className='text-xl font-bold text-center mb-24'>SignUp Form</h1>
                 <form>
                     <div className='mt-20'>
@@ -18,7 +18,7 @@ const SignUpForm1 = () => {
                         </button>
                     </div>
                 </form>
-                <div className='flex md:flex-row flex-col items-center justify-center mt-10'>
+                <div className='flex md:flex-row flex-col items-center justify-center mt-28'>
                     <p>Already have an account?</p>
                     <button className='underline uppercase hover:cursor-pointer md:ml-2' style={{ color: "#1678CB", fontWeight: "700" }}>
                         Login Here!
